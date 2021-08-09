@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css">
+
+
+</head>
+<body>
+    
+
+    <div class="container">
+        <div class="gameSection">
+            <div class="gameBoard">
+                <div style="margin-bottom: 20px;">
+                    <form id="form1">
+                        <input id="player1" type="text" placeholder="player 1" style="width: 115px;">
+                        <input id="player2" type="text" placeholder="player 2" style="width: 115px;">
+                        <input type="submit" style="background-color: green; color: white;">
+                    </form>
+                    <div style="display: none;" id="newGame">
+                        <input type="submit" value="new game?" style="font-size: 20px; background-color: steelblue; color: white; padding-bottom: 5px;">
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td colspan="3"><H1 id="turn"> Ready?</H1></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><button id="one" value="1">1</button></td>
+                            <td><button id="two" value="2">2</button></td>
+                            <td><button id="three" value="3">3</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="four" value="4">4</button></td>
+                            <td><button id="five" value="5">5</button></td>
+                            <td><button id="six" value="6">6</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="seven" value="7">7</button></td>
+                            <td><button id="eight" value="8">8</button></td>
+                            <td><button id="nine" value="9">9</button></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><h1 id="won"></h1></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   <script src="program/main.js"></script>
+</body>
+</html>

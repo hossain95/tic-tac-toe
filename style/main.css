@@ -1,0 +1,58 @@
+body
+{
+    background-color: #192a56;
+}
+.container
+{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+.gameSection
+{
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.gameBoard
+{
+    padding: 5%;
+    text-align: center;
+}
+.table
+{
+    border-style: solid;
+    border-color: steelblue;
+    border-width: 2px;
+}
+tr
+{
+    border-style: solid;
+    border-color: steelblue;
+    border-width: 2px;
+}
+td
+{
+    width: 90px;
+    height: 90px;
+    border-style: solid;
+    border-color: steelblue;
+    border-width: 2px;
+}
+button
+{
+    width: 100%;
+    height: 100%;
+    background-color: #dcdde1;
+    border: none;
+}
+input[type="text"]
+{
+    border-width: 2px;
+    border-color: steelblue;
+}
